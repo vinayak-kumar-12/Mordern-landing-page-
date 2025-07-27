@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.back {
+    height: 100vh;
+    width: 100%;
+    
+}
+.back img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.top {
+    z-index: 1;
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+  
+}
+
+.workingarea {
+    height: 100vh;
+    width: 100%;
+    max-width: 80%;
+    /* background-color: lightblue; */
+    margin: 0 auto;
+    
+}
+
+.nav {
+    pointer-events: all;
+    padding: 25px 0px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
+}
+
+.nav img {
+    height: 90px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.nav .left h2 {
+    
+    cursor: pointer;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.right {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.right h2 {
+    cursor: pointer;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.hero {
+    overflow: hidden;
+    width: 100%;
+    padding: 8vw 0vw;
+    display: flex;
+    justify-content: space-between;
+}
+.left-hero{
+    height: 100vh;
+    width: 25vw;
+    
+}
+.right-hero{
+    height: 100vh;
+    width: 18vw;
+
+}
+
+.elem{
+   
+    height: 4.3vw;   
+    position: relative;
+    overflow: hidden;
+}
+.left-hero .elem h1:nth-child(1){
+    top: 0;
+}
+
+
+.left-hero .elem h1{
+    position: absolute;
+    font-size: 3.5vw;
+    color: white;
+    line-height: 4vw;
+    
+    top: 100%;
+    left: 0;
+    
+}
+button{
+    
+    pointer-events: all;
+    margin-top: 8vw ;
+    font-size: 1.5vw;
+    padding: 1.5vw 3vw ;
+    border-radius: 1vw;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+.right-hero .box{
+    height:10vw;
+    width: 90%;
+    margin: 2vw auto;
+    background-color: lightcyan;
+    border-radius: 1vw;
+
+}
+.right-hero .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1vw;
+    
+}
+.right-hero p{
+    text-align: end;
+}
+.right-hero .one{
+    padding: 1vw 0vw;
+    color: white;
+}
+.right-hero .two{
+    margin-top: 2vw;
+    color: white;
+}
+.right-hero .three{
+    
+    color: white;
+}
